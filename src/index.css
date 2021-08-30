@@ -1,15 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Londrina+Shadow&display=swap');
-
-body {
-    margin: 0;
-    font-family: 'Styles', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-      sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+@font-face {
+    font-family: "hr";
+    font-weight: 100;
+    src: url("./font/hr.ttf") format("truetype");
   }
-  ​
-  code {
-    font-family: 'Styles', source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-      monospace;
+  @font-face {
+    font-family: "ls";
+    font-weight: 50;
+    src: url("./font/ls.ttf") format("truetype");
   }
