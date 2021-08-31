@@ -1,23 +1,35 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
+import navi from '../images/navi.jpg'
 
 
 const Navi = () => (
-    <div>
+    <NaviDiv>
      
-        <NaviList>
-            <NaviItem><Link to='/history'><strong>History</strong></Link></NaviItem>
-            <NaviItem><Link to='/review'><strong>Review</strong></Link></NaviItem>
-            <NaviItem><Link to='/setting'><strong>Setting</strong></Link></NaviItem>
+        <NaviList><Icon src = {navi}/>
+            <NaviItem><Link to='/history'style={{textDecorationLine:'none',color:'black'}}><strong>History</strong></Link></NaviItem>
+            <NaviItem><Link to='/review'style={{textDecorationLine:'none',color:'black'}}><strong>Review</strong></Link></NaviItem>
         </NaviList>
-    </div>
+    </NaviDiv>
 )
 export default Navi
+
+const Icon = styled.img`
+    width: auto; height: auto;
+    max-width: 100px;
+    max-height: 100px;
+    display: flex;
+    margin: -38px;
+`
+
+const NaviDiv = styled.div`
+    padding-bottom: 30px;
+    
+`
 const NaviList = styled.ul`
     display: flex;
     width: 400px;
-    // height: 400px;
     margin: 0 auto;
     
 `
@@ -27,7 +39,7 @@ const NaviItem = styled.li`
     margin-left: 20px;
     margin-top: 30px
     display: flex;
-    color: red;
+    color: none;
     font-family: "ls";
     font-size: 13px
     text-align: right;

@@ -1,21 +1,27 @@
 import React from 'react';
 import styled from 'styled-components';
+import { Link } from 'react-router-dom';
 
 const Header = () => (
     <div>
 
-        <Head>Jarviis</Head>
+        
+        <HomeButton><Link to='/Home' style={{textDecorationLine:'none'}}><Head>Jarviis</Head></Link></HomeButton>
         </div>
 );
     
-  
+  //홈으로 돌아가는 버튼만들기
   
 export default Header;
 
 const Head = styled.h1`
     width: 100%;
-    border-bottom: 1px solid #d1d8e4;
     font-family: "ls";
-    font-size: 50px
-    
+    font-size: 50px;
+    color:crimson;
+    margin-top: 0;
+`
+const HomeButton = styled.button`
+background-color: white;
+border: none;
 `
