@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
-import Map from './Map';
-import MyPage from './Mypage';
+import Map from '../components/Map';
+import MyPage from '../../common/components/Mypage';
 const History = () => (
     
     

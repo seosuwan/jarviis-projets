@@ -3,10 +3,8 @@ import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 
 const Header = () => (
-    <div>
-
-        
-        <HomeButton><Link to='/Home' style={{textDecorationLine:'none'}}><Head>Jarviis</Head></Link></HomeButton>
+      <div>
+      <HomeButton><Link to='/Home' style={{textDecorationLine:'none'}}><Head>Jarviis</Head></Link></HomeButton>
         </div>
 );
     

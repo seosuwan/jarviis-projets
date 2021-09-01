@@ -1,16 +1,9 @@
-// install (please make sure versions match peerDependencies)
-// yarn add @nivo/core @nivo/line
 import React from 'react';
 import { ResponsiveLine } from '@nivo/line'
-// make sure parent container have a defined height when using
-// responsive component, otherwise height will be 0 and
-// no chart will be rendered.
-// website examples showcase many properties,
-// you'll often use just a few of them.
 const Chart1 = ({ data /* see data tab */ }) => (
     <ResponsiveLine
         data={data}
-        margin={{ top: 50, right: 110, bottom: 50, left: 60 }}
+        margin={{ top: 30, right: 90, bottom: 70, left: 50 }}
         xScale={{ type: 'point' }}
         yScale={{ type: 'linear', min: 'auto', max: 'auto', stacked: true, reverse: false }}
         yFormat=" >-.2f"

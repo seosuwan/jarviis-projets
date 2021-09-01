@@ -1,7 +1,10 @@
 import React from 'react'
 import {Route,Switch} from 'react-router-dom'
-import {Header,History,Review,Setting,Navi} from 'components/index';
-import {Home} from 'pages/index';
+import {Header, Navi} from 'common/index';
+import { History } from './history/index';
+import { Setting } from 'setting';
+import {Home} from 'common';
+import { Review } from 'review';
 
 
 

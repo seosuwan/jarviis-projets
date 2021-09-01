@@ -1,10 +1,10 @@
 @font-face {
     font-family: "hr";
     font-weight: 100;
-    src: url("./font/hr.ttf") format("truetype");
+    src: url("./common/styles/hr.ttf") format("truetype");
   }
   @font-face {
     font-family: "ls";
     font-weight: 50;
-    src: url("./font/ls.ttf") format("truetype");
+    src: url("./common/styles/ls.ttf") format("truetype");
   }
