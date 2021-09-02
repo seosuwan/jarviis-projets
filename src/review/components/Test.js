@@ -2,13 +2,14 @@ import React from 'react'
 import '../styles/Test.css'
 import Chart1 from './Chart1'
 import Chartdata from './Chartdata'
+import reviewimg from '../images/reviewimg.jpg'
 
 const Test = () => (<>
 <div class="wrap">
 
 <label for="menu1" class="label e">
   <span class="rotate">
-    <p>MENU 1</p>
+    <p>USER</p>
   </span>
 </label>
 <input type="radio" name="navigation" id="menu1" class="button"/>
@@ -17,7 +18,7 @@ const Test = () => (<>
   {/* <Chart1/> */}
   <Chart1 data= {Chartdata}/>
 
-</div>
+</div> 
 
 
 <label for="menu2" class="label d">
@@ -40,12 +41,7 @@ const Test = () => (<>
 </label>    
 <input type="radio" name="navigation" id="menu3" class="button"/>
 <div class="contents">
-  <div class="inner">
-    <div class="description">
-      <h3>TITLE 3</h3>
-      <p>다람쥐 헌 챗바퀴에 타고파. 다람쥐 헌 챗바퀴에 타고파. 다람쥐 헌 챗바퀴에 타고파. 다람쥐 헌 챗바퀴에 타고파.</p>
-    </div>
-  </div>
+  <img src = {reviewimg} alt=""/>
 </div>
 </div></>
 )

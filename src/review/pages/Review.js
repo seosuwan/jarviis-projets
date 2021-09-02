@@ -9,7 +9,7 @@ import Test from '../components/Test'
 const Review = () => {
     return(<>
     
-    <p>??</p>
+    
     <div><MyPage/>
     <Table> 
         <Tr>
