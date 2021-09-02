@@ -1,7 +1,4 @@
 import React from 'react';
-// import Chartdata from '../components/Chartdata';
-import MyPage from '../../common/components/Mypage';
-// import Chart1 from '../components/Chart1';
 import styled from 'styled-components';
 import Test from '../components/Test'
 
@@ -10,7 +7,7 @@ const Review = () => {
     return(<>
     
     
-    <div><MyPage/>
+    <div>
     <Table> 
         <Tr>
             <Td><Test/>

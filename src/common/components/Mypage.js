@@ -50,6 +50,7 @@ const DivMyPage = styled.div`
     text-align:center;
     border: dotted 5px khaki;
     border-radius: 42px;
+    position:fixed;
 
     
 `
