@@ -18,7 +18,7 @@ const Map = () => {
     <div
     
       className="map"
-      style={{ width: "500px", height: "200px" }}
+      style={{ width: "1000px", height: "400px", margin: '0 auto' }}
       ref={mapRef}
    
     ></div>

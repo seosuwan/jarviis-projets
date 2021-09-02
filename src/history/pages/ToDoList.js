@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import { TodoProvider, TodoCreate, TodoHead, TodoList, TodoTemplate } from 'common/components/index';
+import { TodoProvider, TodoCreate, TodoHead, TodoList, TodoTemplate } from '../index';
 
 const ToDoList = () => {
 
@@ -24,7 +24,7 @@ const TodolistDiv = styled.div`
     text-align:center;
     margin:0 auto;
     width: 70%;
-    background-color: lightgray;
+    
 `
 // const ListDiv =styled.div`
 //     font-size: 30px;

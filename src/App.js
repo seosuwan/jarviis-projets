@@ -5,6 +5,7 @@ import { History } from './history/index';
 import { Setting } from 'setting';
 import {Home} from 'common';
 import { Review } from 'review';
+import {Edit} from './history/index'
 
 
 

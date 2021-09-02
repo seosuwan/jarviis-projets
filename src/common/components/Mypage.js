@@ -39,23 +39,23 @@ export default MyPage
 
 const MyPageDiv = styled.div`
     float:left;
-    width: 250px;
+    width: 300px;
     border: solid 2px #368c98;
-    height: 50%;
+    margin:10px;
     margin-right: 30px;
     border-radius: 42px;
 `
 
 const DivMyPage = styled.div`
     text-align:center;
-    border: dotted 4px khaki;
+    border: dotted 5px khaki;
     border-radius: 42px;
 
     
 `
 const Profile = styled.img`
     margin: auto;
-    width:50%;
+    width:60%;
     height:10%;
 `
 const Menu = styled.div`
@@ -70,12 +70,12 @@ const Menuul = styled.ul`
 const Menuli = styled.li`
     padding:10px;
     font-family: "ls";
-    font-size: 11px;
+    font-size: 25px;
     
 `
 const Icon = styled.img`
     float:left;
-    width: 10px;
-    height: 10px;
-    padding: 3px;
+    width: 25px;
+    height: 25px;
+    padding: 1px;
 `

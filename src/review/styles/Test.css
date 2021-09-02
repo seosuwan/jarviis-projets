@@ -1,8 +1,6 @@
-*body {
 
-}
 .wrap {
-    width:399px;
+    width:1000px;
     height:auto;   
 }
 
@@ -14,11 +12,13 @@ div { display:block;  }
 /* 화면 전체를 감싸는 박스 */
 .wrap {
     position:relative;
-    top:0;
-    left:0;
+    top:14px;
+    left:141px;
     right:0;
     bottom:0;
     overflow:hidden;
+    background-color: white;
+    /* z-index: -1; */
 }
 
 /* 라디오 인풋을 이용했으며 인풋에 라벨을 이어 버튼으로 사용하므로 인풋 자체는 보여질 필요가 없음, 인풋 자체는 보이지 않게 가림 */
@@ -29,11 +29,12 @@ input.button {
 /* 라디오 인풋에 체크가 되면, 인접한 .contents 상자를 보이게 함 */
 input[type=radio]:checked + .contents { 
     visibility: visible;
-    max-height:500px;
+    max-height:700px;
     -webkit-transform: scale(1,1);
     -ms-transform: scale(1,1);
     transform:scale(1,1);
     opacity:1;
+    height: 540px;
 }
 /* 라디오 인풋, 모두 닫는 버튼 */
 .closer {
@@ -46,7 +47,7 @@ input[type=radio]:checked + .contents {
     line-height:50px;
     background:#ADB4B0;
     text-align:center;
-    font-family:"Arial Black";
+    font-family:"ls";
     font-size:25px;
     color:#fff;
     -moz-box-shadow:1px 1px 3px 5px rgba(0,0,0,0.02);
@@ -123,7 +124,6 @@ input[type=radio].close:not(:checked) + .closer {
     -webkit-transition:transform 0.2s ease-out, opacity 0.2s ease-out, max-height 0.1s ease-out;
     transition:transform 0.2s ease-out, opacity 0.2s ease-out, max-height 0.1s ease-out;
     opacity:0;
-    z-index:-1;
     overflow:hidden;
     background: -moz-linear-gradient(-45deg, rgba(46,151,183,0.4) 0%, rgba(164,220,185,0.9) 100%);
     background: -webkit-linear-gradient(-45deg, rgba(46,151,183,0.4) 0%, rgba(164,220,185,0.9) 100%);

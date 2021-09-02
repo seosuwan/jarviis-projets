@@ -5,9 +5,11 @@ import MyPage from '../../common/components/Mypage';
 import styled from 'styled-components';
 import Test from '../components/Test'
 
+
 const Review = () => {
-    return(
+    return(<>
     
+    <p>??</p>
     <div><MyPage/>
     <Table> 
         <Tr>
@@ -18,7 +20,7 @@ const Review = () => {
         </Tr>
     </Table>
     </div>
-    )
+    </>)
 }
 export default Review
 

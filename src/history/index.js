@@ -1,1 +1,8 @@
 export {default as History} from 'history/pages/History'
+export {default as ToDoList} from 'history/pages/ToDoList'
+export {default as TodoProvider} from 'history/components/TodoContext'
+export {default as TodoCreate} from 'history/components/TodoCreate'
+export {default as TodoHead} from 'history/components/TodoHead'
+export {default as TodoItem} from 'history/components/TodoItem'
+export {default as TodoList} from 'history/components/TodoList'
+export {default as TodoTemplate} from 'history/components/TodoTemplate'

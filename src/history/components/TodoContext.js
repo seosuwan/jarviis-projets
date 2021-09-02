@@ -34,7 +34,7 @@ const initialTodos = [
   { id: 4, text: '리액트 공부하기', done: false }
 ];
 
-export function TodoProvider({ children }) {
+const  TodoProvider = ({ children }) => {
   const [state, dispatch] = useReducer(todoReducer, initialTodos);
   const nextId = useRef(5);
 
@@ -48,6 +48,7 @@ export function TodoProvider({ children }) {
     </TodoStateContext.Provider>
   );
 }
+export default TodoProvider
 
 export function useTodoState() {
   return useContext(TodoStateContext);

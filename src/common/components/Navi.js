@@ -35,12 +35,13 @@ const NaviList = styled.ul`
 `
 
 const NaviItem = styled.li`
-    width: 150px;
-    margin-left: 20px;
+    width: 125px;
+    margin-left: 5px;
     margin-top: 30px
     display: flex;
     color: none;
     font-family: "ls";
-    font-size: 13px
+    font-size: 30px;
     text-align: right;
+    list-style: none;
     `

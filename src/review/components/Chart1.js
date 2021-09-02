@@ -42,10 +42,10 @@ const Chart1 = ({ data /* see data tab */ }) => (
                 translateY: 0,
                 itemsSpacing: 0,
                 itemDirection: 'left-to-right',
-                itemWidth: 80,
-                itemHeight: 20,
+                itemWidth: 10,
+                itemHeight: 10,
                 itemOpacity: 0.75,
-                symbolSize: 12,
+                symbolSize: 5,
                 symbolShape: 'circle',
                 symbolBorderColor: 'rgba(0, 0, 0, .5)',
                 effects: [

@@ -15,7 +15,7 @@ export default Header;
 const Head = styled.h1`
     width: 100%;
     font-family: "ls";
-    font-size: 50px;
+    font-size: 100px;
     color:crimson;
     margin-top: 0;
 `

@@ -2,22 +2,19 @@ import React from 'react';
 import styled from 'styled-components';
 import Map from '../components/Map';
 import MyPage from '../../common/components/Mypage';
-const History = () => (
+import {ToDoList} from '../index';
+
+const History = () => (<>
     
     
-        <div><MyPage/>
-        <div><Map/></div>
+    <Div>    
+        <MyPage/>
+    </Div>
+    <div><Map/></div>
+    <ToDoList/>    
 
-        <Hlabel><input type="checkbox" name="list" value=""/> 7시에 일어나기</Hlabel><p/>
-        <label><input type="checkbox" name="list" value=""/> 강남 학원가기</label>
 
-
-        
-
-      
-    </div>
-
-    
+    </>
 )
 
 export default History
@@ -30,4 +27,7 @@ const Hlabel = styled.label`
 const CheckBox = styled.li`
     height: 450px;
 
+`
+const Div = styled.div`
+    position:fixed;
 `
