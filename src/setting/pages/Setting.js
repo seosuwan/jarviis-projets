@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
-import MyPage from '../../common/components/Mypage';
 import review1 from '../images/review1.png';
 import review2 from '../images/review2.png';
 import review3 from '../images/review3.png';
@@ -9,7 +8,7 @@ import review4 from '../images/review4.png';
 import review5 from '../images/review5.png';
 
 const Setting = () =>(
-    <div><MyPage/>
+    <div>
         <Reviewdiv>
         <Reviewul>
             <Reviewli>

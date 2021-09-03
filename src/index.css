@@ -8,3 +8,8 @@
     font-weight: 50;
     src: url("./common/styles/ls.ttf") format("truetype");
   }
+  @font-face {
+    font-family: "ko";
+    font-weight: 50;
+    src: url("./common/styles/ko.ttf") format("truetype");
+  }

@@ -26,7 +26,6 @@ const Div = styled.div `
     width: 500px;
     height:348px;
     border:solid 1px;
-    text-size:
 
 `
 const Table = styled.table`

@@ -6,16 +6,8 @@ import settings from '../images/settings.png'
 import { Link } from 'react-router-dom';
 
 const MyPage = () => {
-    // const openNav = () => {
-    //     document.getElementById('mypage').style.display = 'block';
-    // }
-    // const closeNav = () => {
-    //     document.getElementById('mypage').style.display = 'none';
-    // }
     return (<>
-    {/* <button onClick={openNav}>openNav</button> */}
     <MyPageDiv id="mypage">
-        {/* <ButtonX onClick={closeNav}>X</ButtonX> */}
         <DivMyPage>
             <Profile src={logo} alt=""/>
             <h5>WELCOME, USER!</h5>
@@ -39,23 +31,26 @@ export default MyPage
 
 const MyPageDiv = styled.div`
     float:left;
-    width: 300px;
+    width: 20vw;
     border: solid 2px #368c98;
-    margin:10px;
-    margin-right: 30px;
-    border-radius: 42px;
+    margin:2vw;
+    border-radius: 4vw;
+    height:30vw;
+    position:fixed;
 `
 
 const DivMyPage = styled.div`
     text-align:center;
     border: dotted 5px khaki;
-    border-radius: 42px;
-    position:fixed;
+    border-radius: 4vw;
+    margin:34px;
+   
+    
 
     
 `
 const Profile = styled.img`
-    margin: auto;
+    margin:34px;
     width:60%;
     height:10%;
 `
@@ -69,14 +64,15 @@ const Menuul = styled.ul`
     
 `
 const Menuli = styled.li`
-    padding:10px;
     font-family: "ls";
-    font-size: 25px;
+    font-size: 1.5vw;
+    margin-left: 3vw;
+
     
 `
 const Icon = styled.img`
     float:left;
-    width: 25px;
-    height: 25px;
+    width: 1vw;
+    height: 1vw;
     padding: 1px;
 `

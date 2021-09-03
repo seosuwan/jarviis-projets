@@ -30,7 +30,6 @@ export default TodoHead;
 
 const TodoHeadBlock = styled.div`
   h1 {
-    margin: 0;
     font-size: 16px;
     color: #343a40;
   }

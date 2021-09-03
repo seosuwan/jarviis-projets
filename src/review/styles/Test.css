@@ -13,7 +13,7 @@ div { display:block;  }
 .wrap {
     position:relative;
     top:14px;
-    left:141px;
+    left:401px;
     right:0;
     bottom:0;
     overflow:hidden;
@@ -76,6 +76,7 @@ input[type=radio].close:not(:checked) + .closer {
     display:inline-block;
     overflow:hidden;
     cursor:pointer;
+    border-radius: 42px;
 }
 /*  메뉴 버튼에 들어갈 아이콘을 100px * 100px, 투명한 PNG 로 저장하여 아래의 경로에 연동해주면 됨 
     위쪽 코드 .label.a 부터 맨 아래코드 .label.e 까지가 메뉴버튼 오른쪽-> 왼쪽 순서 */
@@ -86,13 +87,13 @@ input[type=radio].close:not(:checked) + .closer {
     background:#32B9BE;
 }
 .label.c {
-    background:#5BCEBF;
+    background:#5bce9e;
 }
 .label.d {
-    background:#74DCB9;
+    background:#74dcd7;
 }
 .label.e {
-    background:#94DCB9;
+    background:#94dcc6;
 }
 .label .rotate {
     display:inline-block;
@@ -102,13 +103,14 @@ input[type=radio].close:not(:checked) + .closer {
     font-size:1.5em;
     white-space: nowrap;
     left:40%;
-    font-family: "arial";
+    font-family: "ls",'ko';
     font-weight:600;
-    color:#fff;
+    color:rgb(14, 1, 1);
 }
 
 /* 컨텐츠 본문 */
 .contents {
+    border-radius: 20px;
     position:relative;
     visibility: collapse;
     float:left;
@@ -161,11 +163,12 @@ input[type=radio].close:not(:checked) + .closer {
     color:#0f848c;
 }
 .description p {
-    font-size:19px;
+    font-size:20px;
     line-height:1.7;
     font-weight:600;
     color:#4e6b61;
     padding-left: 20px;
     overflow:auto;
     letter-spacing:-1px;
+    
 }

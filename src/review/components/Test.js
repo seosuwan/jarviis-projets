@@ -3,6 +3,7 @@ import '../styles/Test.css'
 import Chart1 from './Chart1'
 import Chartdata from './Chartdata'
 import reviewimg from '../images/reviewimg.jpg'
+import styled from 'styled-components'
 
 const Test = () => (<>
 <div class="wrap">
@@ -23,7 +24,7 @@ const Test = () => (<>
 
 <label for="menu2" class="label d">
   <span class="rotate">
-    <p>MENU 2</p>
+    <p>Comparison</p>
   </span>
 </label>
 <input type="radio" name="navigation" id="menu2" class="button"/>
@@ -36,13 +37,17 @@ const Test = () => (<>
 
 <label for="menu3" class="label c">
   <span class="rotate">
-    <p>MENU 3</p>
+    <p>꽃 키워볼까요..</p>
   </span>
 </label>    
 <input type="radio" name="navigation" id="menu3" class="button"/>
 <div class="contents">
-  <img src = {reviewimg} alt=""/>
+  <Img src = {reviewimg} alt=""/>
 </div>
 </div></>
 )
 export default Test
+
+const Img = styled.img`
+  height: 100%;
+`

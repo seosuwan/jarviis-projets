@@ -119,7 +119,7 @@ export default Admin
 
 
 const AdminDiv = styled.div`
-    padding: 20px;
+    padding: 1vw;
 `
 const PieDiv = styled.div`
     // border: 1px gray solid;
@@ -128,7 +128,7 @@ const PieDiv = styled.div`
     width: 850px;
 `
 const BarDiv = styled.div`
-    // border: 1px gray solid;
+    //border: 1px gray solid;
     border-radius: 30px;
     height: 600px;
     width: 700px;

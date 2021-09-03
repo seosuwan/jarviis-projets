@@ -7,22 +7,22 @@ import navi from '../images/navi.jpg'
 const Navi = () => (
     <NaviDiv>
      
-        <NaviList><Icon src = {navi}/>
-            <NaviItem><Link to='/history'style={{textDecorationLine:'none',color:'black'}}><strong>History</strong></Link></NaviItem>
+     <NaviList>
+     <Icon src = {navi}/><NaviItem><Link to='/history'style={{textDecorationLine:'none',color:'black'}}><strong>History</strong></Link></NaviItem>
             <NaviItem><Link to='/review'style={{textDecorationLine:'none',color:'black'}}><strong>Review</strong></Link></NaviItem>
 
-            <NaviItem><Link to="/todolist">To-do list</Link></NaviItem>
-            <NaviItem><Link to="/dairy">Dairy</Link></NaviItem>
-            <NaviItem><Link to="/admin">Admin</Link></NaviItem>
+            <NaviItem><Link to="/todolist"style={{textDecorationLine:'none',color:'black'}}><strong>To-do list</strong></Link></NaviItem>
+            <NaviItem><Link to="/dairy"style={{textDecorationLine:'none',color:'black'}}><strong>Dairy</strong></Link></NaviItem>
+            <NaviItem><Link to="/admin"style={{textDecorationLine:'none',color:'black'}}><strong>Admin</strong></Link></NaviItem>
 
-            <NaviItem><Link to="/login">Login</Link></NaviItem>
-            <NaviItem><Link to="/join">Join</Link></NaviItem>
-            <NaviItem><Link to="/checklist">Checklist</Link></NaviItem>
+            <NaviItem><Link to="/login"style={{textDecorationLine:'none',color:'black'}}><strong>Login</strong></Link></NaviItem>
+            <NaviItem><Link to="/join"style={{textDecorationLine:'none',color:'black'}}><strong>Join</strong></Link></NaviItem>
+            <NaviItem><Link to="/checklist"style={{textDecorationLine:'none',color:'black'}}><strong>Checklist</strong></Link></NaviItem>
 
-            <NaviItem><Link to="/calendar">Calendar</Link></NaviItem>
-            <NaviItem><Link to="/scheduler">Scheduler</Link></NaviItem>
-            <NaviItem><Link to="/day">Day</Link></NaviItem>
-            <NaviItem><Link to="/suggestion">Suggestion</Link></NaviItem>
+            <NaviItem><Link to="/calendar"style={{textDecorationLine:'none',color:'black'}}><strong>Calendar</strong></Link></NaviItem>
+            <NaviItem><Link to="/scheduler"style={{textDecorationLine:'none',color:'black'}}><strong>Scheduler</strong></Link></NaviItem>
+            <NaviItem><Link to="/day"style={{textDecorationLine:'none',color:'black'}}><strong>Day</strong></Link></NaviItem>
+            <NaviItem><Link to="/suggestion"style={{textDecorationLine:'none',color:'black'}}><strong>Suggestion</strong></Link></NaviItem>
         </NaviList>
     </NaviDiv>
 )
@@ -42,19 +42,16 @@ const NaviDiv = styled.div`
 `
 const NaviList = styled.ul`
     display: flex;
-    width: 400px;
-    margin: 0 auto;
+    width: min-content;
+    height:10px;
+    margin: 30px
     
 `
 
 const NaviItem = styled.li`
-    width: 125px;
-    margin-left: 5px;
-    margin-top: 30px
-    display: flex;
+    width: 110px;
     color: none;
     font-family: "ls";
-    font-size: 30px;
-    text-align: right;
+    font-size: 1.5em;
     list-style: none;
     `

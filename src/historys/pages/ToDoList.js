@@ -21,9 +21,11 @@ export default ToDoList
 
 const TodolistDiv = styled.div`
     padding: 2px;
-    text-align:center;
-    margin:0 auto;
+    text-align:left;
+    margin-left: 344px;
     width: 70%;
+    position: relative;
+    font-family: "ko";
     
 `
 // const ListDiv =styled.div`

@@ -81,9 +81,9 @@ export default Diary
 const DairyDiv = styled.div`
     padding: 10px;
     text-align:center;
-    margin:0 auto;
-    width: 70%;
-    // background-color: lightgray;
+    margin-left:25vw; 
+    width: 70vw;
+    
 `
 const Weatherimg = styled.img`
     display:block;
@@ -106,5 +106,6 @@ const DiaryTr = styled.tr`
 const DiaryTd = styled.td`
     border:1px solid black;
     width:300px;
-    height:100px;    
+    height:100px;
+    font-family: ko;  
 `
